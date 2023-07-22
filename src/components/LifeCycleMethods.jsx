@@ -18,13 +18,9 @@ class LifeCycleMethods extends React.Component {
   render() {
     console.log("Component rendered.");
     return (
-      <div className="container text-center mt-5 pt-5">
-        <h1 className="text-danger">LIFECYCLE METHODS</h1>
-        <p className="text-danger">
-          constructor(), render(), componentDidMount(), componentDidUpdate(),
-          componentWillUnmount()
-        </p>
-        <h3>COUNT={this.state.count}</h3>
+      <div className="container text-center mt-5">
+        <h1 className="text-success mb-4">LIFECYCLE METHODS</h1>
+        <h3 className="display-6">COUNT = {this.state.count}</h3>
         <button className="btn btn-primary" onClick={this.increase}>
           INCREASE
         </button>
