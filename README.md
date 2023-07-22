@@ -1,5 +1,5 @@
 # https://reactlifecycle-5620b5.netlify.app
-
+Used: React LifeCycle, UseState, UseEffect
 
 -----------------------------------------------
 
